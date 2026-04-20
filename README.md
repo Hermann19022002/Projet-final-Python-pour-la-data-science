@@ -161,9 +161,9 @@ Chaque graphique est accompagné d'un **encadré d'interprétation**.
 
 ##  Auteurs
 
-Projet réalisé dans le cadre du cours *Python pour la Data Science* par  Hermann er Neville
+Projet réalisé dans le cadre du cours *Python pour la Data Science* par  Hermann et Neville
 
-Enseignant : **Lino Galiana** et **Raya Berova*
+Enseignant : **Lino Galiana** et **Raya Berova**
 
 ---
 
