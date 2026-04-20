@@ -1,0 +1,26 @@
+# ======================================================================
+# Dépendances — Projet Accidents corporels de la route (BAAC 2023)
+# Versions testées avec Python 3.10+
+# ======================================================================
+
+# Manipulation et analyse
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Requêtes HTTP (API data.gouv.fr)
+requests>=2.31.0
+
+# Visualisation
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Cartographie interactive
+folium>=0.14.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+
+# Environnement Jupyter
+jupyter>=1.0.0
+notebook>=6.5.0
+ipykernel>=6.20.0
