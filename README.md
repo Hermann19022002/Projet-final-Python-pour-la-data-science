@@ -23,8 +23,8 @@ Projet réalisé dans le cadre du cours **Python pour la Data Science** à l'ENS
 
 ## Problématique
 
-> **Quels sont les principaux facteurs — temporels, environnementaux, humains et
-> routiers — associés aux accidents corporels en France en 2023, et peut-on prédire
+> **Quels sont les principaux facteurs (temporels, environnementaux, humains et
+> routiers) associés aux accidents corporels en France en 2023, et peut-on prédire
 > la gravité d'un accident à partir de ces variables ?**
 
 Trois axes structurent le projet :
