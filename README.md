@@ -1,7 +1,6 @@
 # Analyse des accidents corporels de la route en France (BAAC 2023)
 
-Projet réalisé dans le cadre du cours **Python pour la Data Science** dispensé par
-Lino Galiana à l'ENSAE.
+Projet réalisé dans le cadre du cours **Python pour la Data Science** à l'ENSAI.
 
 ![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
