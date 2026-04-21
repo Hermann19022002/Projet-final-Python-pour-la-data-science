@@ -44,12 +44,13 @@ diffusée en open data sur [data.gouv.fr](https://www.data.gouv.fr/fr/datasets/b
 Le projet exploite les 4 fichiers de l'année **2023**, récupérés automatiquement via
 l'API de data.gouv.fr :
 
-| Fichier     | Granularité                  | Lignes (2023) |
-|-------------|------------------------------|---------------|
-| `caract`    | un accident                  | ~54 800       |
-| `lieux`     | un lieu d'accident           | ~70 900       |
-| `usagers`   | une victime                  | ~125 800      |
-| `vehicules` | un véhicule impliqué         | ~85 000       |
+| Fichier     | Granularité                  | Lignes (2023) | Colonnes|
+|-------------|------------------------------|---------------|---------|
+| `caract`    | un accident                  | 54 822        | 15      |
+| `lieux`     | un lieu d'accident           | 70 860        | 18      |
+| `usagers`   | une victime                  | 125 789       | 16      |
+| `vehicules` | un véhicule impliqué         | 85 062        | 07      |
+
 
 Les fichiers sont reliés entre eux par la clé **`Num_Acc`**.
 
