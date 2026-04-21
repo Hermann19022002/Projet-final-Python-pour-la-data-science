@@ -27,11 +27,12 @@ Projet réalisé dans le cadre du cours **Python pour la Data Science** à l'ENS
 > routiers) associés aux accidents corporels en France en 2023, et peut-on prédire
 > la gravité d'un accident à partir de ces variables ?**
 
-Trois axes structurent le projet :
+Quatre axes structurent le projet :
 
-1. **Analyse descriptive** — identifier les dimensions qui expliquent la sinistralité.
-2. **Cartographie** — localiser les zones à risque (heatmap, choroplèthe, accidents mortels).
-3. **Modélisation** — prédire si un accident sera *grave* (tué ou hospitalisé) à partir
+1. **Analyse descriptive** : identifier les dimensions qui expliquent la sinistralité.
+2. **Cartographie** : localiser les zones à risque (heatmap, choroplèthe, accidents mortels).
+3. **Analyse textuelle** : analyser ce que les français pensent de la sécurité routière en France
+4. **Modélisation** : prédire si un accident sera *grave* (tué ou hospitalisé) à partir
    de variables disponibles au moment des faits.
 
 ---
@@ -57,6 +58,11 @@ Les fichiers sont reliés entre eux par la clé **`Num_Acc`**.
 Le fond de carte GeoJSON des départements est récupéré depuis le dépôt public
 [france-geojson](https://github.com/gregoiredavid/france-geojson).
 
+Pour l'analyse textuelle, les commentaires ont été collectés via l'**endpoint JSON public de Reddit** (`.json`
+ajouté à l'URL d'un post), sans authentification ni clé API.
+
+Les **9 posts** retenus traitent tous de sécurité routière , et proviennent de
+trois subreddits : `r/france`, `r/voiture` et `r/EnculerLesVoitures`.
 ---
 
 ## Arborescence du projet
