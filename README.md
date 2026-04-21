@@ -163,8 +163,10 @@ Chaque graphique est accompagné d'un **encadré d'interprétation**.
   absentes de la base BAAC limiteraient le pouvoir prédictif.
 - L'analyse est **descriptive** : les associations mises en évidence ne sont pas
   causales.
+- Faire de l'analyse des sentiments.
 - Pistes : optimisation d'hyperparamètres (GridSearch), XGBoost, dashboard
   Streamlit, croisement avec les données trafic (SIREDO) et météo (Météo-France).
+
 
 ---
 
