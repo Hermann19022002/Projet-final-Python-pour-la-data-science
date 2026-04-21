@@ -109,7 +109,7 @@ pip install -r requirements.txt
 ### 4. Lancer le notebook
 
 ```bash
-jupyter notebook Analyse_accidents_BAAC_2023.ipynb
+jupyter notebook Notebook_analyse_accidents_BAAC_2023_propre.ipynb
 ```
 
 Puis exécuter toutes les cellules dans l'ordre (*Run All*). Toutes les données
@@ -117,7 +117,7 @@ sont téléchargées automatiquement — **aucun fichier local requis**.
 
 
 > ```bash
-> jupyter nbconvert --to notebook --execute Analyse_accidents_BAAC_2023.ipynb
+> jupyter nbconvert --to notebook --execute Notebook_analyse_accidents_BAAC_2023_propre.ipynb
 > ```
 
 ---
