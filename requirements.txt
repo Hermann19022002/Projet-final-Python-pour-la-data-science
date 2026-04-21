@@ -17,6 +17,12 @@ seaborn>=0.12.0
 # Cartographie interactive
 folium>=0.14.0
 
+# scraping et analyse textuelle
+wordcloud
+re
+warnings
+time
+
 # Machine Learning
 scikit-learn>=1.3.0
 
