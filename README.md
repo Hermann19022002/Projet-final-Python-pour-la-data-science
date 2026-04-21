@@ -134,8 +134,9 @@ sont téléchargées automatiquement — **aucun fichier local requis**.
 | 6. Analyses univariées | Temps, environnement, usagers, sécurité |
 | 7. Analyses bivariées | Croisements avec la gravité |
 | 8. Cartographie | Heatmap + choroplèthe + accidents mortels |
-| 9. Modélisation | Régression logistique vs Random Forest |
-| 10. Conclusion | Synthèse et limites |
+| 9. Analyse textuelle | Analyse des avis Reddit |
+| 10. Modélisation | Régression logistique vs Random Forest |
+| 11. Conclusion | Synthèse et limites |
 
 Chaque graphique est accompagné d'un **encadré d'interprétation**.
 
@@ -150,6 +151,7 @@ Chaque graphique est accompagné d'un **encadré d'interprétation**.
   voies urbaines, malgré un volume d'accidents moindre.
 - Les accidents en volume sont concentrés en **Île-de-France**, mais les accidents
   **mortels** sont plus **ruraux**.
+- Trois thèmes dominent l'analyse textuelle : vitesse, distance de sécurité, répression/radars. La comparaison avec l'étranger (Italie, Norvège, Allemagne, Maroc) est un argument récurrent et permet de relativiser la situation française. Le téléphone au volant et l'alcool pourtant causes majeures d'accidents sont sous-représentés dans les discussions, révélant un décalage entre perception et statistiques objectives.
 - Un **Random Forest équilibré** atteint une ROC-AUC d'environ **0.70** pour prédire
   la gravité, avec un recall bien supérieur à un modèle naïf.
 
